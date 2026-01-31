@@ -88,9 +88,9 @@ with col2:
     # Make "No" progressively less appealing (playful, not mean)
     no_label = NO_TEXT
     if st.session_state.no_count >= 1:
-        no_label = "No (are you sure?) 😅"
+        no_label = "No (are you sure?) "
     if st.session_state.no_count >= 2:
-        no_label = "No (last chance) 🥺"
+        no_label = "No (last chance) "
     if st.session_state.no_count >= 3:
         no_label = "No (this button is tired) 😴"
 
